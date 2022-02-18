@@ -1,8 +1,9 @@
 .app__body {
     display: flex;
+    background-color: #22262A;
 }
 
 .app {
-    background-color: #f1f2f5;
+    background-color: #22262A;
     
 }

@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
-    background-color: white;
+    background-color: #22262A;
+    color: white;
     z-index: 100;
     top: 0;
     box-shadow: 0px 5px 8px -9px black;
@@ -23,6 +24,7 @@
     padding: 10px;
     margin-left: 10px;
     border-radius: 999px;
+    color: gray;
 }
 
 .header__left > img {
@@ -44,21 +46,23 @@
 
 }
 
+
+
 .header__option > .MuiSvgIcon-root {
     color: gray;
 }
 
 .header__option:hover > .MuiSvgIcon-root {
-    color: #2e81f4;
+    color: #00FFA4;
 }
 
 .header__option--active > .MuiSvgIcon-root {
-    color: #2e81f4;
+    color: #00FFA4;
 
 }
 
 .header__option--active {
-    border-bottom: 4px solid #2e81f4;
+    border-bottom: 4px solid #00FFA4;
 }
 
 .header__option {
@@ -87,4 +91,10 @@
 
 .header__right {
     display: flex;
+}
+
+.header__right > button {
+
+    color: white;
+
 }
