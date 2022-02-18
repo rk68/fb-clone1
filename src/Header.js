@@ -23,10 +23,7 @@ function Header() {
   <div className="header">
       <div className="header__left">
 
-        <img
-            src="Group.png"
-            alt=""
-        />
+        <h2>HedgeNet</h2>
 
         <div className="header__input">
             <SearchIcon />

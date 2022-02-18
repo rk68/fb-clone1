@@ -2,11 +2,11 @@
     width: 100%;
     margin-top: 15px;
     border-radius: 15px;
-    border-width: thin;
     background-color: #22262A;
     box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
     color: white;
-    border-color: #00FFA4;
+    border: 1px solid #00FFA4;
+    
     
 }
 
