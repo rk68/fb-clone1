@@ -3,25 +3,28 @@ import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import HomeIcon from "@material-ui/icons/Home";
 import FlagIcon from "@material-ui/icons/Flag";
-import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
-import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
-import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
 import { Avatar, IconButton } from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";
 import ForumIcon from "@material-ui/icons/Forum";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useStateValue } from './StateProvider';
+import DonutLargeIcon from '@material-ui/icons/DonutLarge';
+import PeopleIcon from "@material-ui/icons/People";
+import { Link } from 'react-router-dom';
+
 
 function Header() {
 
   const [{ user }, dispatch] = useStateValue();
 
-  return <div className="header">
+  return (
+
+  <div className="header">
       <div className="header__left">
 
         <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            src="Group.png"
             alt=""
         />
 
@@ -36,24 +39,28 @@ function Header() {
 
         <div className="header__option
         header__option--active">
+            <Link to='/'>
             <HomeIcon fontSize="large" />
+            </Link>
         </div>
         
         <div className="header__option">
+            
             <FlagIcon fontSize="large" />
         </div>
+        
+        <div className="header__option">
+            <Link to='/Funds'>
+            <DonutLargeIcon fontSize="large" />   
+            </Link>
+        </div>
+        
 
         <div className="header__option">
-            <SubscriptionsOutlinedIcon fontSize="large" />
+            <PeopleIcon fontSize="large" />
         </div>
 
-        <div className="header__option">
-            <StorefrontOutlinedIcon fontSize="large" />
-        </div>
 
-        <div className="header__option">
-            <SupervisedUserCircleIcon fontSize="large" />
-        </div>
     
     </div>
 
@@ -85,7 +92,9 @@ function Header() {
           </IconButton>
 
       </div>
-  </div>;
-}
+  </div>
+ 
+  );
+};
 
 export default Header;

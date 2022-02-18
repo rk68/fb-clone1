@@ -19,10 +19,8 @@ function Login() {
     return (
         <div className="login">
             <div className="login__logo">
-                <img src="\fb-clone\src\Group.png" 
-                alt="Facebook Logo" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/250px-Facebook_Logo_%282019%29.svg.png"
-                alt="Facebook Logo" width="150px" />
+                <h2> HedgeNet </h2>
+
             </div>
             <Button type="submit" onClick={signIn} >Sign In</Button>
         </div>
