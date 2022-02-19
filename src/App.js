@@ -4,7 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Feed from "./Feed";
 import Funds from "./Funds";
-import Widgets from "./Widgets";
+import Friends from "./Friends";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
 import { BrowserRouter as Router, Routes, 
@@ -30,6 +30,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Feed />} />
               <Route path="/Funds" element={<Funds />} />
+              <Route path="/Friends" element={<Friends />} />
             </Routes>
 
             

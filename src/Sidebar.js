@@ -18,12 +18,21 @@ function Sidebar() {
 
       <SidebarRow src={user.photoURL} title={user.displayName} />
 
-      <Link to='/Funds'>
+      <Link to='/Funds'
+      className='side__links'>
       <SidebarRow Icon={DonutLargeIcon} title="Funds" />
       </Link>
 
+      <Link to='/'
+      className='side__links'>
       <SidebarRow Icon={EmojiFlagsIcon} title='Newsfeed'/>
+      </Link>
+
+      <Link to='/Friends'
+      className='side__links'>
       <SidebarRow Icon={PeopleIcon} title='Friends'/>
+      </Link>
+
       <SidebarRow Icon={ChatIcon} title="Messages"/>
       
       

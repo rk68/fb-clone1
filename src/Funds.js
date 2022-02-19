@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Funds.css";
-import { Link } from "react-router-dom";
+import SearchIcon from "@material-ui/icons/Search";
+
 
 
 function Funds() {
@@ -9,6 +10,11 @@ function Funds() {
         
         <div className='funds'>
             <h1> Funds </h1>
+
+            <div className="funds__input">
+            <SearchIcon />
+            <input placeholder="Search" type="text" />
+            </div>
 
             <div className='fund__box'> 
                 <div className='fund__top'>

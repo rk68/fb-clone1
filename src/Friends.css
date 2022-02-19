@@ -1,4 +1,4 @@
-.funds {
+.friends {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -7,40 +7,38 @@
     padding-right: 20%;
     margin-top: 15px;
     background-color: #22262A;
-    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
     color: white;
+    
     
 }
 
-.funds > h1 {
+.friends > h1 {
     margin-bottom: 40px;
-    margin-left: 10px;
 }
 
-.fund__box {
+.friend {
     border: 1px solid #00FFA4;
     border-radius: 15px;
     margin-bottom: 30px;
-    background-image: url('https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     
     width: 60%;
 
 }
 
-.fund__top {
+.friend__top {
     display: flex;
     position: relative;
     align-items: center;
     padding: 15px;
 }
 
-.fund__bottom {
+.friend__bottom {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px 25px;
 }
 
-.funds__input {
+.friends__input {
     display: flex;
     align-items: center;
     background-color: #eff2f5;
@@ -53,7 +51,7 @@
     
 }
 
-.funds__input > input {
+.friends__input > input {
     border: none;
     background-color: transparent;
     outline-width: 0;

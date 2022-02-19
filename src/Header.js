@@ -36,25 +36,27 @@ function Header() {
 
         <div className="header__option
         header__option--active">
-            <Link to='/'>
+            <Link to='/'
+            className='links'>
             <HomeIcon fontSize="large" />
             </Link>
         </div>
         
-        <div className="header__option">
-            
-            <FlagIcon fontSize="large" />
-        </div>
+
         
         <div className="header__option">
-            <Link to='/Funds'>
+            <Link to='/Funds'
+            className='links'>
             <DonutLargeIcon fontSize="large" />   
             </Link>
         </div>
         
 
         <div className="header__option">
+            <Link to='/Friends'
+            className='links'>
             <PeopleIcon fontSize="large" />
+            </Link>
         </div>
 
 
