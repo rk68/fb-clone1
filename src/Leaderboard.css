@@ -1,0 +1,33 @@
+.leaderboard {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid #00FFA4;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+    
+}
+
+.leaderboard > h4 {
+    padding: 20px;
+
+}
+
+.leaderboard__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leaderboard__container > h2{
+    color: white;
+}
+
+.leaderboard__container > p{
+    color: white;
+    display: flex;
+    
+}

@@ -4,6 +4,7 @@ import StoryReel from "./StoryReel";
 import MessageSender from "./MessageSender";
 import Post from "./Post";
 import db from "./firebase";
+import Leaderboard from './Leaderboard';
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -23,6 +24,7 @@ function Feed() {
       
 
       {/*<StoryReel />*/}
+      <Leaderboard />
       <MessageSender />
 
       {posts.map((post) => (
