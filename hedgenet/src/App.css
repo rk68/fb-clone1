@@ -1,0 +1,9 @@
+.app__body {
+    display: flex;
+    background-color: #22262A;
+    padding: 20px;
+}
+
+.app {
+    background-color: #22262A;
+}
